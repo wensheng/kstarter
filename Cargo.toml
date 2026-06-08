@@ -1,0 +1,14 @@
+[package]
+name = "kstarter"
+version = "0.1.0"
+edition = "2024"
+description = "Create detached Kit desktop sessions for kitwin sidecar tools"
+license = "Apache-2.0"
+repository = "https://github.com/wensheng/kitwin"
+readme = "README.md"
+keywords = ["x11", "desktop", "session", "automation", "cli"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+clap = { version = "4.6", features = ["derive"] }
+kitlib = { version = "0.1.0" }
